@@ -1,0 +1,2 @@
+The Tile pages between 3 configurable sets of 6 Domoticz Custom Sensors each and changes color when values are not within optional limits.
+More detailed info in README.md
