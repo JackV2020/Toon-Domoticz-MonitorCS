@@ -169,147 +169,186 @@ Screen {
 
 // ----------------------------------------------------- Save idx values
 
+
 	function saveIdx1(text) {
 		if (text) {
-			idx1Label.buttonText = text.trim();
-			app.deviceIdx[0] = text.trim();
-            if (idx1Label.buttonText == "" ) { saveDevice1(" ") }
+            if (text.trim() != idx1Label.buttonText ) {
+                idx1Label.buttonText = text.trim();
+                app.deviceIdx[0] = text.trim();
+                if (text.trim() == "" ) { saveDevice1(" ") }
+                else { saveDevice1("..wait......") }
+            }
 		}
 	}
 
 	function saveIdx2(text) {
 		if (text) {
-			idx2Label.buttonText = text.trim();
-			app.deviceIdx[1] = text.trim();
-            if (idx2Label.buttonText == "" ) { saveDevice2(" ") }
+            if (text.trim() != idx2Label.buttonText ) {
+                idx2Label.buttonText = text.trim();
+                app.deviceIdx[1] = text.trim();
+                if (text.trim() == "" ) { saveDevice2(" ") }
+                else { saveDevice2("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx3(text) {
 		if (text) {
-			idx3Label.buttonText = text.trim();
-			app.deviceIdx[2] = text.trim();
-            if (idx3Label.buttonText == "" ) { saveDevice3(" ") }
+            if (text.trim() != idx3Label.buttonText ) {
+                idx3Label.buttonText = text.trim();
+                app.deviceIdx[2] = text.trim();
+                if (text.trim() == "" ) { saveDevice3(" ") }
+                else { saveDevice3("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx4(text) {
 		if (text) {
-			idx4Label.buttonText = text.trim();
-			app.deviceIdx[3] = text.trim();
-            if (idx4Label.buttonText == "" ) { saveDevice4(" ") }
+            if (text.trim() != idx4Label.buttonText ) {
+                idx4Label.buttonText = text.trim();
+                app.deviceIdx[3] = text.trim();
+                if (text.trim() == "" ) { saveDevice4(" ") }
+                else { saveDevice4("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx5(text) {
 		if (text) {
-			idx5Label.buttonText = text.trim();
-			app.deviceIdx[4] = text.trim();
-            if (idx5Label.buttonText == "" ) { saveDevice5(" ") }
+            if (text.trim() != idx5Label.buttonText ) {
+                idx5Label.buttonText = text.trim();
+                app.deviceIdx[4] = text.trim();
+                if (text.trim() == "" ) { saveDevice5(" ") }
+                else { saveDevice5("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx6(text) {
 		if (text) {
-			idx6Label.buttonText = text.trim();
-			app.deviceIdx[5] = text.trim();
-            if (idx6Label.buttonText == "" ) { saveDevice6(" ") }
+            if (text.trim() != idx6Label.buttonText ) {
+                idx6Label.buttonText = text.trim();
+                app.deviceIdx[5] = text.trim();
+                if (text.trim() == "" ) { saveDevice6(" ") }
+                else { saveDevice6("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx7(text) {
 		if (text) {
-			idx7Label.buttonText = text.trim();
-			app.deviceIdx[6] = text.trim();
-            if (idx7Label.buttonText == "" ) { saveDevice7(" ") }
+            if (text.trim() != idx7Label.buttonText ) {
+                idx7Label.buttonText = text.trim();
+                app.deviceIdx[6] = text.trim();
+                if (text.trim() == "" ) { saveDevice7(" ") }
+                else { saveDevice7("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx8(text) {
 		if (text) {
-			idx8Label.buttonText = text.trim();
-			app.deviceIdx[7] = text.trim();
-            if (idx8Label.buttonText == "" ) { saveDevice8(" ") }
+            if (text.trim() != idx8Label.buttonText ) {
+                idx8Label.buttonText = text.trim();
+                app.deviceIdx[7] = text.trim();
+                if (text.trim() == "" ) { saveDevice8(" ") }
+                else { saveDevice8("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx9(text) {
 		if (text) {
-			idx9Label.buttonText = text.trim();
-			app.deviceIdx[8] = text.trim();
-            if (idx9Label.buttonText == "" ) { saveDevice9(" ") }
+            if (text.trim() != idx9Label.buttonText ) {
+                idx9Label.buttonText = text.trim();
+                app.deviceIdx[8] = text.trim();
+                if (text.trim() == "" ) { saveDevice9(" ") }
+                else { saveDevice9("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx10(text) {
 		if (text) {
-			idx10Label.buttonText = text.trim();
-			app.deviceIdx[9] = text.trim();
-            if (idx10Label.buttonText == "" ) { saveDevice10(" ") }
+            if (text.trim() != idx10Label.buttonText ) {
+                idx10Label.buttonText = text.trim();
+                app.deviceIdx[9] = text.trim();
+                if (text.trim() == "" ) { saveDevice10(" ") }
+                else { saveDevice10("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx11(text) {
 		if (text) {
-			idx11Label.buttonText = text.trim();
-			app.deviceIdx[10] = text.trim();
-            if (idx11Label.buttonText == "" ) { saveDevice11(" ") }
+            if (text.trim() != idx11Label.buttonText ) {
+                idx11Label.buttonText = text.trim();
+                app.deviceIdx[10] = text.trim();
+                if (text.trim() == "" ) { saveDevice11(" ") }
+                else { saveDevice11("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx12(text) {
 		if (text) {
-			idx12Label.buttonText = text.trim();
-			app.deviceIdx[11] = text.trim();
-            if (idx12Label.buttonText == "" ) { saveDevice12(" ") }
+            if (text.trim() != idx12Label.buttonText ) {
+                idx12Label.buttonText = text.trim();
+                app.deviceIdx[11] = text.trim();
+                if (text.trim() == "" ) { saveDevice12(" ") }
+                else { saveDevice12("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx13(text) {
 		if (text) {
-			idx13Label.buttonText = text.trim();
-			app.deviceIdx[12] = text.trim();
-            if (idx13Label.buttonText == "" ) { saveDevice13(" ") }
+            if (text.trim() != idx13Label.buttonText ) {
+                idx13Label.buttonText = text.trim();
+                app.deviceIdx[12] = text.trim();
+                if (text.trim() == "" ) { saveDevice13(" ") }
+                else { saveDevice13("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx14(text) {
 		if (text) {
-			idx14Label.buttonText = text.trim();
-			app.deviceIdx[13] = text.trim();
-            if (idx14Label.buttonText == "" ) { saveDevice14(" ") }
+            if (text.trim() != idx14Label.buttonText ) {
+                idx14Label.buttonText = text.trim();
+                app.deviceIdx[13] = text.trim();
+                if (text.trim() == "" ) { saveDevice14(" ") }
+                else { saveDevice14("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx15(text) {
 		if (text) {
-			idx15Label.buttonText = text.trim();
-			app.deviceIdx[14] = text.trim();
-            if (idx15Label.buttonText == "" ) { saveDevice15(" ") }
+            if (text.trim() != idx15Label.buttonText ) {
+                idx15Label.buttonText = text.trim();
+                app.deviceIdx[14] = text.trim();
+                if (text.trim() == "" ) { saveDevice15(" ") }
+                else { saveDevice15("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx16(text) {
 		if (text) {
-			idx16Label.buttonText = text.trim();
-			app.deviceIdx[15] = text.trim();
-            if (idx16Label.buttonText == "" ) { saveDevice16(" ") }
+            if (text.trim() != idx16Label.buttonText ) {
+                idx16Label.buttonText = text.trim();
+                app.deviceIdx[15] = text.trim();
+                if (text.trim() == "" ) { saveDevice16(" ") }
+                else { saveDevice16("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx17(text) {
 		if (text) {
-			idx17Label.buttonText = text.trim();
-			app.deviceIdx[16] = text.trim();
-            if (idx17Label.buttonText == "" ) { saveDevice17(" ") }
+            if (text.trim() != idx17Label.buttonText ) {
+                idx17Label.buttonText = text.trim();
+                app.deviceIdx[16] = text.trim();
+                if (text.trim() == "" ) { saveDevice17(" ") }
+                else { saveDevice17("..wait......") }
+            }
 		}
 	}
-
 	function saveIdx18(text) {
 		if (text) {
-			idx18Label.buttonText = text.trim();
-			app.deviceIdx[17] = text.trim();
-            if (idx18Label.buttonText == "" ) { saveDevice18(" ") }
+            if (text.trim() != idx18Label.buttonText ) {
+                idx18Label.buttonText = text.trim();
+                app.deviceIdx[17] = text.trim();
+                if (text.trim() == "" ) { saveDevice18(" ") }
+                else { saveDevice18("..wait......") }
+            }
 		}
 	}
 

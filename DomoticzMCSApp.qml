@@ -252,7 +252,7 @@ App {
                             
                                 if ( dataJSON['result'][ii]['idx'] == deviceIdx[i] ) {
                                     deviceValue[i] = dataJSON['result'][ii]['Data']
-                                    if (deviceName[i] == '') { deviceName[i] = dataJSON['result'][ii]['Name'] }
+                                    if (deviceName[i] == '' || deviceName[i] == '..wait......') { deviceName[i] = dataJSON['result'][ii]['Name'] }
                                     if (deviceLolim[i] != '') { newalarmlow  = newalarmlow  || parseFloat(deviceValue[i]) <= parseFloat(deviceLolim[i]) }
                                     if (deviceHilim[i] != '') { newalarmhigh = newalarmhigh || parseFloat(deviceValue[i]) >= parseFloat(deviceHilim[i]) }                            
                                     if (deviceLolim[i] != '') { deviceLoAlarm[i] = ( parseFloat(deviceValue[i]) <= parseFloat(deviceLolim[i]) ) }
