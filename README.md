@@ -35,12 +35,13 @@ When the app arrives in the store installing will be like for any other app.
 
 For now to install manually without Toon store : 
 
- - ssh to your Toon.
- - On your Toon go to /qmf/qml/apps and issue the next command :
-   git clone https://github.com/JackV2020/Toon-Domoticz-MonitorCS.git domoticzMCS
+ - Download the zip. ( Click green Code above and select Download Zip )
+ - Unpack the zipfile.
+ - Use FileZilla / WinSCP to create /qmf/qml/apps/domoticzMCS on Toon.
+ - Put the contents of the zipfile in the new directory.
  - Restart the GUI or reboot your Toon.
  - Add the 'Monitor CS' app like any other app to the screen.
-    ( Click on a big + and add a tile for Monitor CS )
+    ( Click on a big + and add a tile for 'Monitor CS' )
 
 To configure :
 
