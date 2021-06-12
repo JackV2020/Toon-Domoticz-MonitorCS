@@ -1,10 +1,13 @@
-1.0.0
+1.0.3
 - by JackV
-- first public release
-1.0.1
-- by JackV
-- Improved timer handling ( no activity when tile / screen is not shown )
+- in dimmed state show only first page (so put most interesting counters on first page)
 1.0.2
 - by JackV
 - Limits Screen : Field color yellow when in use, blue for low alarm and red for high alarm
 - Settings Screen : changing an idx will initiate the collecting of the Domoticz device name
+1.0.1
+- by JackV
+- Improved timer handling ( no activity when tile / screen is not shown )
+1.0.0
+- by JackV
+- first public release

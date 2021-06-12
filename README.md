@@ -6,6 +6,7 @@ Rooting a Toon is perfectly legal by the way.
  - purpose :
     ... page between 3 sets of 6 devices with their values on the tile
     ... warn when values in Domoticz are not within optional configurable limits by changing tile color
+    ... on dimmed screen only show first page (so put most intesting counters there)
 
  - is used by me to display Domoticz devices like :
     ... solar panels generated today

@@ -325,6 +325,8 @@ App {
 
             readDomoticzdevicesData()
 
+            if (dimState) { scrollCounter = 0 }
+            
             value1=deviceValue[ ( scrollCounter + 0 ) % deviceName.length ]
             value2=deviceValue[ ( scrollCounter + 1 ) % deviceName.length ]
             value3=deviceValue[ ( scrollCounter + 2 ) % deviceName.length ]
