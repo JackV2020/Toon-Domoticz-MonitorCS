@@ -1,4 +1,4 @@
-This Toon app is to monitor Domoticz Devices of the type General Custom Sensor. 
+This Toon app is to monitor Domoticz Devices of the type General Custom Sensor.
 
 A Toon app is an app which can be installed on a rooted Eneco Toon 1 or Toon 2.
 Rooting a Toon is perfectly legal by the way.
